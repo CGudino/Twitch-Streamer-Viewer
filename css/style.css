@@ -1,0 +1,104 @@
+body {
+  background: url('https://images8.alphacoders.com/542/thumb-1920-542508.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Copperplate Gothic Light';
+}
+
+#container {
+  text-align: center;
+}
+
+#header {
+  width: 50%;
+  margin: 2% auto;
+  text-align: center;
+}
+
+#header-logo {
+  width: 25%;
+}
+
+#search-bar {
+  margin: 3% 0%;
+}
+
+#search-input {
+  width: 25%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  border-top: 1px solid lightgray;
+  color: white;
+  text-align: center;
+  font-size: 200%;
+}
+
+#search-input::placeholder {
+  color: white;
+}
+
+button {
+  width: 5%;
+  margin-top: 1%;
+  min-width: 5%;
+}
+
+#streamer-list {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+  font-size: 200%;
+}
+
+.streamer-icon {
+  width: 10%;
+  border-radius: 50%;
+  margin: 3% 10% 3% 3%;
+}
+
+.stream-list {
+  border-radius: 15px;
+  margin: 2% 0%;
+}
+
+.circle-online {
+  border: 1px solid green;
+  border-radius: 50%;
+  border-color: green;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+}
+
+.circle-offline {
+  border: 1px solid red;
+  border-radius: 50%;
+  border-color: red;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+footer {
+  color: white;
+  font-size: 150%;
+  margin-top: 10%;
+}
+
+#online-status {
+  font-size: 80%;
+  text-align: center;
+  padding-bottom: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
