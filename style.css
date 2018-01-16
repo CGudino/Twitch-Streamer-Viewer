@@ -1,7 +1,5 @@
 body {
-  background: url('https://images8.alphacoders.com/542/thumb-1920-542508.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url('./Pictures/Twitch.jpg');
   background-attachment: fixed;
   font-family: 'Copperplate Gothic Light';
 }
@@ -25,7 +23,7 @@ body {
 }
 
 #search-input {
-  width: 25%;
+  width: 50%;
   background: transparent;
   border: none;
   border-bottom: 2px solid white;
@@ -40,9 +38,7 @@ body {
 }
 
 button {
-  width: 5%;
   margin-top: 1%;
-  min-width: 5%;
 }
 
 #streamer-list {
